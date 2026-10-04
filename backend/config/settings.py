@@ -158,7 +158,10 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
     'http://127.0.0.1:5173',
     'https://smartcart-two-gamma.vercel.app',
-    'https://smartcart-ipgvgu8g9-mateen8.vercel.app',
+]
+
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    r"^https://smartcart-[a-z0-9]+-mateen8\.vercel\.app$",
 ]
 
 
