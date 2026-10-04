@@ -33,6 +33,7 @@ DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
+    'smartcart-backend-kf8g.onrender.com',
 ]
 
 
