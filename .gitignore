@@ -1,0 +1,64 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# Environment variables
+.env
+.env.*
+
+# Django media/uploads
+backend/media/
+
+
+# =========================
+# Node / React
+# =========================
+
+node_modules/
+frontend/node_modules/
+
+# Vite
+frontend/dist/
+frontend/.vite/
+
+# Environment variables
+frontend/.env
+frontend/.env.*
+
+
+# =========================
+# IDE / Editor
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+
+# =========================
+# Build / Cache
+# =========================
+
+*.tmp
+*.temp
+.cache/
